@@ -1,0 +1,371 @@
+html{
+    font-size:62.5%; /* 10÷16=62.5% */
+    background-color: #F5FFFA;
+}
+
+body{
+    /*width: 100rem;*/
+    font-size: 1.4rem;/*1.4 × 10px = 14px */
+    line-height: 1.2rem;
+    margin: 0 auto;
+}
+.hide{
+    display: none
+}
+
+.show{
+    display: block
+}
+
+.fl{
+    float: left
+}
+
+#main .head{
+    text-align: center;
+    height: 4rem
+}
+
+#main .menus{
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0.5rem
+}
+
+#main .menus .menu{
+    background-color: #EEEEEE;
+}
+
+
+#detail .big img{
+    width: 100%;
+    height: 100%;
+}
+
+#detail .three{
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+
+#detail .title{
+    text-align: center;
+    margin: 1rem auto;
+    
+}
+
+#foot {
+    clear:both;
+    background-color: #333333;
+    height: 16rem;
+    width: 100%;
+    margin-top: 3rem;
+    padding-top: 1rem;
+}
+
+#foot img{
+    width: 3rem;
+    height: 3rem
+}
+
+#foot .text{
+    color: #388E8E;
+    text-align: center
+}
+
+#foot .text .texts div{
+    line-height: 1.6rem;
+}
+
+.ppt{
+    display: none
+}
+
+.ppt_s{
+    display: block
+}
+
+@media ( min-width : 10rem) {
+    
+    #detail{
+        width: 100%;
+        height: 44rem;
+    }
+
+    #main {
+        height: 14rem;
+        margin-bottom: 2rem
+    }
+
+    #main .menus .menu{
+        margin-bottom: 2px;
+    }
+
+    /*html{ background-color: red;}*/
+    #main .menus .menu{
+        width: 100%;
+        float: left;
+        text-align: center
+    }
+
+    #detail .three{
+        text-align: center
+    }
+
+    #detail .three .icon{
+        float: left;
+        width: 30%;
+    }
+
+    #detail .big{
+        text-align: center
+    }
+
+    #detail .info{
+        text-align: center
+    }
+
+    #foot .four{
+        width: 100%;
+        height: 4rem;
+    }
+
+    #foot .four .icon0{
+        float: left;
+        width: 30%;
+        height: 4rem
+    }
+
+    #foot .four .icon1{
+        float: left;
+        width: 10%;
+        text-align: center
+    }
+
+    #foot .four .icon2{
+        float: left;
+        width: 30%;
+        height: 4rem
+    }
+
+    #foot .text {
+        width: 100%;
+        height: 6rem;
+    }
+
+    #foot .text .text0{
+        float: left;
+        width: 40%;
+        height: 6rem
+    }
+
+    #foot .text .text1{
+        float: left;
+        width: 40%;
+        height: 6rem
+    }
+
+    #foot .text .texts{
+        float: left;
+        width: 20%;
+        height: 6rem
+    }
+
+    .text21,.text22{
+        border-bottom: 1px solid #FFFFFF
+    }
+
+    .left,.right{
+        width: 0%;
+        height: 100%;
+        float: left
+    }
+
+    .mid{
+        width: 100%;
+        height: 100%;
+        float: left
+    }
+}
+
+@media ( min-width :35rem) {
+    
+    #detail{
+        width: 100%;
+        height: 35rem;
+    }
+
+    #main {
+        height: 10rem;
+    }
+
+    #main .menus .menu{
+        margin-right: 5px;
+    }
+    /*html{ background-color: blue;}*/
+    #main .menus .menu{
+        width: 31%;
+        float: left;
+        text-align: center;
+    }
+
+    #detail .three{
+        text-align: center
+    }
+
+    #detail .three .icon{
+        float: left;
+        width: 30%;
+    }
+
+    #detail .big{
+        text-align: center;
+        float: left;
+        width: 50%
+    }
+
+    #detail .info{
+        text-align: center;
+        float: left;
+        width: 50%
+    }
+
+    #foot .four .icon0{
+        float: left;
+        width: 30%;
+        height: 4rem
+    }
+
+    #foot .four .icon1{
+        float: left;
+        width: 10%;
+        text-align: center
+    }
+
+    #foot .four .icon2{
+        float: left;
+        width: 30%;
+        height: 4rem
+    }
+
+    .left,.right{
+        width: 20%;
+        height: 100%;
+        float: left
+    }
+
+    .mid{
+        width: 60%;
+        height: 100%;
+        float: left
+    }
+}
+
+@media ( min-width : 60rem) {
+    /*html{ background-color: green;}*/
+    #detail{
+        width: 100%;
+        height: 30rem;
+    }
+
+    #main .head{
+        text-align: left
+    }
+
+    #main .menus .menu{
+        width: 18%;
+        float: left;
+        text-align: center
+    }
+
+    #detail .three{
+        clear:both;
+        text-align: center;
+        width: 10%;
+        float: left;
+    }
+
+    #detail .three .icon{
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #detail .big{
+        text-align: center;
+        float: left;
+        width: 45%
+    }
+
+    #detail .info{
+        text-align: center;
+        float: left;
+        width: 45%
+    }
+
+    #foot .four{
+        width: 50%;
+        height: 4rem;
+        float: left
+    }
+
+    #foot .four .icon0{
+        float: left;
+        width: 40%;
+        height: 4rem
+    }
+
+    #foot .four .icon1{
+        float: left;
+        width: 12%;
+        text-align: center
+    }
+
+    #foot .four .icon2{
+        float: left;
+        width: 0%;
+        height: 4rem
+    }
+
+    #foot .text {
+        width: 50%;
+        height: 6rem;
+        float: left
+    }
+
+    #foot .text .text0{
+        float: left;
+        width: 0%;
+        height: 6rem
+    }
+
+    #foot .text .text1{
+        float: left;
+        width: 40%;
+        height: 6rem
+    }
+
+    #foot .text .texts{
+        float: left;
+        width: 20%;
+        height: 6rem
+    }
+
+    .left,.right{
+        width: 20%;
+        height: 100%;
+        float: left
+    }
+
+    .mid{
+        width: 60%;
+        height: 100%;
+        float: left
+    }
+}
+
+#full{
+    height:10rem;
+    width: 100%; 
+    background-image: url(../img/16.jpg) 
+}
